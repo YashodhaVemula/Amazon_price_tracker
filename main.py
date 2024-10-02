@@ -14,7 +14,7 @@ import smtplib
 
 def check_price():
     my_email = 'yashodhavemula09@gmail.com'
-    my_password = 'wvvrgadkaluheqtq'
+    my_password = 'xxxxxxxxxxxx'
 
     #url = input('Enter the url of the product whose price must be tracked.\n ')
     # assigning the url of the item to a variable
