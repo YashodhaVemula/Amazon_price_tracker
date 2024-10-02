@@ -78,16 +78,4 @@ def check_price():
 
 
 # Define your check_price function here
-
-while True:
-    # Run the check_price function
-    check_price()
-
-    # Calculate the next run time, which is 2 hours from now
-    next_run_time = datetime.now() + timedelta(hours=2)
-
-    # Sleep until the next run time
-    time_to_sleep = (next_run_time - datetime.now()).total_seconds()
-    if time_to_sleep > 0:
-        time.sleep(time_to_sleep)
-
+check_price()
